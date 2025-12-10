@@ -570,7 +570,7 @@ footer{
     gap: 10px;
 }
 .portfolio-icon img{
-    max-height: 28px;
+    max-height: 40px;
     width: auto;
     align-items: center;
 }
@@ -645,6 +645,9 @@ footer{
     .about-text p{
         max-width: 90%;
     }
+    .hero {
+        padding-top: 150px; /* mesma altura do header */
+    } 
 }
 @media screen and (max-width: 576px) {
     .hero h2{
@@ -660,6 +663,9 @@ footer{
         padding: 0 0;
         gap: 3px;
     }
+    .hero {
+        padding-top: 150px; /* mesma altura do header */
+    } 
 }
 @media screen and (max-width: 998px) {
     .about-content {
