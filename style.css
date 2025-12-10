@@ -366,6 +366,16 @@ header{
     font-size: 1.3rem;
     color: black;
 }
+.project-icon img{
+    max-height: 40px;
+    width: auto;
+    align-items: center;
+}
+.project-text span{
+    font-family: Chewy, sans-serif;
+    color: rgb(3, 85, 168);
+    font-size: 1.2rem;
+}
 
 /*Contato*/
 
